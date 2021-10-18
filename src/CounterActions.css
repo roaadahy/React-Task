@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(250, 241, 229);
+}
+.navbar button {
+    width: 80px;
+    height: 80px;
+    margin: 50px;
+    color: #ffffff;
+    border-style: double;
+    border-color: rgb(54, 153, 164);
+    background-color: rgb(155, 215, 222);
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: -27px 19px 38px 14px rgba(21,176,168,0.53);
+    border-radius: 15px;
+    
+    
+}
+
+.head h1 {
+    text-align: center;
+    align-items: center;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(155, 215, 222), 0 0 5px rgb(54, 153, 164);;
+}
