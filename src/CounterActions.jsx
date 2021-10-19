@@ -11,7 +11,7 @@ const CounterActions = () => {
         setCounter(counter + 1)
     }
     const minus = () => {
-        if (counter != 0)
+        if (counter !== 0)
             setCounter(counter - 1)
     }
 

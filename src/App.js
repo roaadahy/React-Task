@@ -1,14 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
-import { useState } from 'react';
+import Navbar from './Navbar.jsx'
 import CounterActions from './CounterActions.jsx';
+import Product from './Product.jsx';
+import Shop from './Shop.jsx';
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
   return (
+    
+    <Router>
     <div>
-      <CounterActions></CounterActions>
+      <Navbar />
+      <Switch>
+        <Route component={CounterActions} path="/counter"  />
+        <Route component={Shop} path="/shop" exact/>
+        <Route component={Product} path="/shop/:id" />
+
+    </Switch>
     </div>
+    </Router>
+    
   );
 }
 
