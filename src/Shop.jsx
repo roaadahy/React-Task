@@ -17,7 +17,7 @@ const Shop = () => {
     }
     return (
         <div>
-            <h2>Shop</h2>
+            <h2 className="text-center">Shop</h2>
             <div className="d-felx flex-wrap justify-content-center">
                 { products.map( product => {
                     console.log('product', product);

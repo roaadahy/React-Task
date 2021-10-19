@@ -21,9 +21,9 @@ const Product = ({ match }) => {
                     </div>
                     <div>
                         <h2 className="text-dark">{product.title}</h2>
-                        <p className="text-primary">{product.category}</p>
-                        <p className="text-danger">{product.price}</p>
-                        <p className="text-warning">{product.rating.rate}</p>
+                        <p className="text-primary">Category: {product.category}</p>
+                        <p className="text-danger">Price: {product.price} EGP</p>
+                        <p className="text-warning">Rating: {product.rating.rate}</p>
                     </div>
                 </div>
                 :

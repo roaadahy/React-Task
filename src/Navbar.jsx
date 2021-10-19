@@ -1,10 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-
+import img from "./logo.png"
 const Navbar = () => {
     return (
         <div className="d-flex justify-content-around mb-3">
-           <img src="./logo.png" className="w-25" alt="logo"></img>
+           <img src={img} alt="logo" width="30" height="30"></img>
            <ul className="d-flex justify-content-between" style={{listStyle: 'none'}}>
                 <li className="mx-2">
                     <Link to="/">Home</Link>
