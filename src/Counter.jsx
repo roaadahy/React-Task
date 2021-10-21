@@ -1,20 +1,18 @@
+import CounterActions from './CounterActions';
 import './CounterActions.css'
+import { useSelector } from 'react-redux';
 
-function Counter(props) {
 
+function Counter() {
 
     return (
-        <div className="navbar">
-
-            <button onClick={props.plus}>+</button>
-            <h1>{props.counter}</h1>
-            <button onClick={props.minus}>-</button>
-        </div>
+       
+          <div>
+              <CounterActions />
+          </div>
     );
-}
+};
 export default Counter;
-
-
 
 
 
