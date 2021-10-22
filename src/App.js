@@ -8,6 +8,9 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Todo from './Todo.jsx'
 import About from './About'
+import LoginForm from './LoginForm';
+import RegisterForm from './RegisterForm';
+
 function App() {
   return (
     
@@ -16,6 +19,8 @@ function App() {
       <Navbar />
       <Switch>
         <Route component={About} path="/" exact />
+        <Route component={LoginForm} path="/login"/>
+        <Route component={RegisterForm} path="/register" />
         <Route component={Counter} path="/counter"  />
         <Route component={Shop} path="/shop" exact/>
         <Route component={Product} path="/shop/:id" />
