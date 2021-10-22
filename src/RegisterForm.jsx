@@ -74,7 +74,7 @@ const RegisterFormikComponents = () => {
                             <button  type="submit" className="d-block bg-dark text-light rounded mx-2 mt-3 border border-white">Register</button>
                         </div>
 
-                         <pre>  {JSON.stringify(formik, null, 4)}</pre>
+                         {/* <pre>  {JSON.stringify(formik, null, 4)}</pre> */}
                     </Form>
                 );
             }}
