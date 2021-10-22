@@ -8,12 +8,12 @@ import RegisterFormikArray from "./RegisterFormikArray";
 
 const RegisterFormikComponents = () => {
     const initialValues = {
-        username: "aa",
-        email: "a@a.com",
-        password: "1234Roaa!",
-        confirmPassword: "1234Roaa!",
+        username: "",
+        email: "",
+        password: "",
+        confirmPassword: "",
         active: false,
-        gender: "female",
+        gender: "",
         hobbies: [],
     };
 
